@@ -241,7 +241,7 @@ int main(){
 		//printf("DEBUG - Time: %2d:%02d:%2d",info->tm_hour, info->tm_min, info->tm_sec);
 		//printf(" DEBUG - Time: %d%d:%d%d:%d%d",firstHourDigit, secondHourDigit, firstMinuteDigit, secondHourDigit, firstSecondDigit, secondSecondDigit);
 
-		// because of the slow draw time (on windows, i suspect the linux port will suck less ass) sleep isnt one full second to accound for drawing lag
+		// because of the slow draw time (on windows, i suspect the linux port will suck less) sleep isnt one full second to accound for drawing lag
 		Sleep(650);
 	}
 
